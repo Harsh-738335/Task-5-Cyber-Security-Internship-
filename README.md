@@ -1,98 +1,85 @@
-Task-5: Malware Types & Behavior Analysis 
-Tools Used
+ # Task 5: Malware Types & Behavior Analysis (Basic)
 
-Primary: VirusTotal
+## Objective
+The objective of this task is to understand different types of malware, analyze their behavior using online malware analysis tools, and learn basic malware detection and prevention techniques.
 
-Alternative: Any.Run (Free Tier – optional)
+---
 
-Step-by-Step Solution (According to README)
-Step 1: Learn Malware Types
+## Tools Used
+- **Primary Tool:** VirusTotal  
+- **Alternative Tool:** Any.Run (Free Tier)
 
-Study and note the basic malware categories mentioned in the README:
+---
 
-Virus: Attaches to files and spreads when executed
+## Malware Types Studied
+The following common malware types were studied as part of this task:
 
-Worm: Self-replicates across networks
+- **Virus:** Attaches itself to legitimate files and spreads when the infected file is executed.
+- **Worm:** Self-replicates and spreads automatically through networks without user interaction.
+- **Trojan:** Malicious software disguised as legitimate or useful programs.
+- **Ransomware:** Encrypts user data and demands payment for decryption.
+- **Spyware:** Collects sensitive user information without consent.
+- **Adware:** Displays unwanted advertisements and may track user activity.
 
-Trojan: Disguised as legitimate software
+---
 
-Ransomware: Encrypts files and demands payment
+## Malware Sample Used
+To ensure safety, a **known malware hash** was analyzed instead of downloading actual malware.
+my own ip address
 
-Step 2: Upload Known Malware Sample (Safe Method)
+## Malware Analysis Using VirusTotal
 
-As instructed in README, use hashes instead of real malware files.
+### Detection Report
+- **Detection Ratio:** Detected by a majority of antivirus engines
+- **Threat Classification:** Trojan
+- **Severity Level:** High
 
-Example malware hash used:
+---
 
-owen ip address 
+## Observed Behavior Indicators
+Based on VirusTotal behavior analysis, the malware exhibits the following indicators:
 
+- File system modification
+- Registry changes for persistence
+- Suspicious process execution
+- Network communication attempts with external servers
 
-(This is a well-known test malware sample)
+---
 
-Step 3: Analyze Detection Report (VirusTotal)
+## Malware Lifecycle
+The general lifecycle of the analyzed malware is as follows:
 
-Open VirusTotal
+Infection → Execution → Persistence → Command & Control → Damage
+---
 
-Paste the hash in the search bar
+## Malware Spreading Techniques
+Common malware spreading techniques identified include:
 
-Open the analysis report
+- Email attachments
+- Fake software downloads
+- Malicious websites
+- Removable media (USB drives)
 
-Observe:
+---
 
-Detection ratio
+## Prevention Methods
+The following preventive measures can help protect systems from malware attacks:
 
-Malware category
+- Installing and updating antivirus software
+- Using firewalls
+- Keeping operating systems and software up to date
+- Avoiding suspicious links and email attachments
+- Educating users about cybersecurity threats
 
-Threat labels
+---
 
-Result Example:
+## Conclusion
+This task provided an understanding of basic malware types and their behavior. Using VirusTotal, malware detection reports and behavior indicators were analyzed safely. The activity helped build awareness of malware threats, their lifecycle, and essential prevention techniques.
 
-Detection Ratio: 60+/70
+---
 
-Malware Type: Trojan
-
-Severity: High
-
-Step 4: Observe Behavior Indicators
-
-From VirusTotal Behavior / Relations sections:
-
-Suspicious file execution
-
-Registry modifications
-
-Network communication attempts
-
-Persistence mechanisms
-
-Step 5: Understand Malware Lifecycle
-
-Based on analysis:
-
-Infection → Execution → Persistence → Communication → Damage
-
-Step 6: Learn How Malware Spreads
-
-Common spreading methods identified:
-
-Email attachments
-
-Fake software installers
-
-Malicious websites
-
-Removable media (USB)
-
-Step 7: Identify Prevention Methods
-
-Preventive controls:
-
-Antivirus software
-
-Firewall protection
-
-Regular updates
-
-Email filtering
-
-User awareness
+## Final Outcome
+- Basic malware awareness
+- Understanding of malware behavior
+- Knowledge of detection techniques
+- Improved cybersecurity fundamentals
